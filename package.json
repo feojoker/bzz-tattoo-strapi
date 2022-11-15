@@ -20,7 +20,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  },
   "author": {
     "name": "A Strapi developer"
   },
