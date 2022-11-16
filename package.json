@@ -15,6 +15,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "production": "ENV_PATH=./.env.production NODE_ENV=production strapi start",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
@@ -31,7 +32,7 @@
     "template": "@strapi/template-blog@1.0.0"
   },
   "engines": {
-    "node": "16.17.0",
+    "node": ">=16.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
