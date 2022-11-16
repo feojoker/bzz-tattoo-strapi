@@ -31,7 +31,7 @@
     "template": "@strapi/template-blog@1.0.0"
   },
   "engines": {
-    "node": "16.13.0",
+    "node": "16.17.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
