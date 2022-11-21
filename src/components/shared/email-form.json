@@ -42,6 +42,14 @@
     "emailError": {
       "type": "string",
       "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "phoneError": {
+      "type": "string",
+      "required": true
     }
   }
 }
