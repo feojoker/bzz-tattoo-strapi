@@ -20,19 +20,11 @@
             "component": "shared.seo",
             "required": true
         },
-        "hero": {
+        "videoBanner": {
             "type": "component",
             "repeatable": false,
-            "component": "sections.hero",
+            "component": "shared.video-banner",
             "required": true
-        },
-        "videoBanner": {
-            "type": "media",
-            "multiple": false,
-            "required": false,
-            "allowedTypes": [
-                "videos"
-            ]
         }
     }
 }
