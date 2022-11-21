@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_shared_video_banners",
+    "info": {
+        "displayName": "VideoBanner",
+        "icon": "film",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "video": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "videos"
+            ]
+        },
+        "title": {
+            "type": "string"
+        },
+        "smallText": {
+            "type": "richtext"
+        }
+    }
+}

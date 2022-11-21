@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_shared_photo_and_texts",
+    "info": {
+        "displayName": "PhotoAndText",
+        "icon": "camera-retro",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "longText": {
+            "type": "richtext",
+            "required": true
+        },
+        "subTitle": {
+            "type": "string",
+            "required": true
+        }
+    }
+}
