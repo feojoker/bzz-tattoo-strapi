@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-page",
     "pluralName": "contact-pages",
-    "displayName": "ContactPage"
+    "displayName": "ContactPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,18 +16,18 @@
     }
   },
   "attributes": {
-    "bannerImage": {
+    "imageBanner": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      },
-      "required": true
+      }
     },
     "formEmail": {
       "displayName": "EmailForm",
