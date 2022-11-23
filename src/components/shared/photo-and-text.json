@@ -15,16 +15,16 @@
         "images"
       ]
     },
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "longText": {
       "type": "richtext",
       "required": true
     },
     "subTitle": {
       "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }

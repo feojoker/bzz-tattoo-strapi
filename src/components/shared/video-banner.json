@@ -15,10 +15,10 @@
         "videos"
       ]
     },
-    "title": {
-      "type": "string"
-    },
     "smallText": {
+      "type": "richtext"
+    },
+    "title": {
       "type": "richtext"
     }
   }
