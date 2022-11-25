@@ -20,7 +20,7 @@
             "component": "shared.seo",
             "required": true
         },
-        "videoBanner": {
+        "mediaBanner": {
             "type": "component",
             "repeatable": false,
             "component": "shared.video-banner",

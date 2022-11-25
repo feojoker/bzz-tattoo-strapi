@@ -1,18 +1,19 @@
 {
     "collectionName": "components_shared_video_banners",
     "info": {
-        "displayName": "VideoBanner",
+        "displayName": "MediaBanner",
         "icon": "film",
         "description": ""
     },
     "options": {},
     "attributes": {
-        "video": {
+        "media": {
             "type": "media",
             "multiple": false,
             "required": true,
             "allowedTypes": [
-                "videos"
+                "videos",
+                "images"
             ]
         },
         "smallText": {

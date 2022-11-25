@@ -16,7 +16,7 @@
         }
     },
     "attributes": {
-        "videoBanner": {
+        "mediaBanner": {
             "type": "component",
             "repeatable": false,
             "pluginOptions": {
