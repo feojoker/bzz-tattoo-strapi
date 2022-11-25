@@ -16,14 +16,6 @@
     }
   },
   "attributes": {
-    "buttonText": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
