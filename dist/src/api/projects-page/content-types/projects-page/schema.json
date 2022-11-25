@@ -43,18 +43,15 @@
             },
             "component": "shared.seo"
         },
-        "imageBanner": {
-            "allowedTypes": [
-                "images"
-            ],
-            "type": "media",
-            "multiple": false,
+        "mediaBanner": {
+            "type": "component",
+            "repeatable": false,
             "pluginOptions": {
                 "i18n": {
-                    "localized": false
+                    "localized": true
                 }
             },
-            "required": true
+            "component": "shared.video-banner"
         }
     }
 }

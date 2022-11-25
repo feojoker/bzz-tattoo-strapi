@@ -16,19 +16,6 @@
     }
   },
   "attributes": {
-    "imageBanner": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
     "formEmail": {
       "displayName": "EmailForm",
       "type": "component",
@@ -40,6 +27,16 @@
       },
       "component": "shared.email-form",
       "required": true
+    },
+    "mediaBanner": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.video-banner"
     }
   }
 }
