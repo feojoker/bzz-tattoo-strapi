@@ -23,14 +23,6 @@
             "component": "shared.default-seo",
             "required": true
         },
-        "favicon": {
-            "type": "media",
-            "multiple": false,
-            "required": true,
-            "allowedTypes": [
-                "images"
-            ]
-        },
         "logo": {
             "type": "media",
             "multiple": false,
