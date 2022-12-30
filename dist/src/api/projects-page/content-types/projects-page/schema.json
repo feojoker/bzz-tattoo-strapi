@@ -35,6 +35,14 @@
                 }
             },
             "component": "shared.video-banner"
+        },
+        "title": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "richtext"
         }
     }
 }
