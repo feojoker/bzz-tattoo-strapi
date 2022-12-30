@@ -1,0 +1,40 @@
+{
+    "kind": "singleType",
+    "collectionName": "default_seos",
+    "info": {
+        "singularName": "default-seo",
+        "pluralName": "default-seos",
+        "displayName": "DefaultSeo",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "defaultSeo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "shared.seo",
+            "required": true
+        },
+        "siteName": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": false
+                }
+            },
+            "type": "string",
+            "required": true
+        }
+    }
+}
