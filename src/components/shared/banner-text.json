@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_banner_texts",
+  "info": {
+    "displayName": "BannerText",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": false
+    },
+    "smallText": {
+      "type": "richtext"
+    }
+  }
+}
