@@ -30,16 +30,16 @@
                 }
             }
         },
-        "mediaBanner": {
+        "bannerText": {
             "type": "component",
             "repeatable": false,
-            "component": "shared.video-banner",
-            "required": true,
             "pluginOptions": {
                 "i18n": {
                     "localized": true
                 }
-            }
+            },
+            "component": "shared.banner-text",
+            "required": false
         }
     }
 }

@@ -16,17 +16,6 @@
         }
     },
     "attributes": {
-        "mediaBanner": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                }
-            },
-            "component": "shared.video-banner",
-            "required": true
-        },
         "seo": {
             "type": "component",
             "repeatable": false,
@@ -47,6 +36,16 @@
             },
             "component": "shared.photo-and-text",
             "required": true
+        },
+        "bannerText": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "shared.banner-text"
         }
     }
 }
