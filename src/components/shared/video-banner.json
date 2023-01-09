@@ -21,6 +21,14 @@
     },
     "title": {
       "type": "richtext"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

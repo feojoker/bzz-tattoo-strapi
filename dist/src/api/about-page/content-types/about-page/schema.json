@@ -46,6 +46,17 @@
                 }
             },
             "component": "shared.banner-text"
+        },
+        "mediaBanner": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "shared.video-banner",
+            "required": true
         }
     }
 }

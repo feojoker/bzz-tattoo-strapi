@@ -40,6 +40,16 @@
             },
             "component": "shared.banner-text",
             "required": false
+        },
+        "mediaBanner": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "shared.video-banner"
         }
     }
 }
