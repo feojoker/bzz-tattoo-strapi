@@ -35,7 +35,7 @@ module.exports = ({ env }) => ({
                         routes: /* @type {CacheRouteConfig[]} */ [
                             {
                                 path: '/api/language-icons',
-                                method: 'GET', // can be omitted, defaults to GET
+                                method: 'GET',
                             },
                         ],
                     }
