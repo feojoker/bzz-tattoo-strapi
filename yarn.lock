@@ -3565,11 +3565,6 @@
   resolved "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.7.0.tgz#e1993689ac42d2b16e9194376cfb6753f6254db1"
   integrity sha512-oxnCNGj88fL+xzV+dacXs44HcDwf1ovs3AuEzvP7mqXw7fQntqIhQ1BRmynh4qEKQSSSRSWVyXRjmTbZIX9V2Q==
 
-"@webvibe-io/strapi-plugin-instagram@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@webvibe-io/strapi-plugin-instagram/-/strapi-plugin-instagram-1.2.5.tgz#65a403c8287b43ec76e09fcbc9e5c307fd882b4c"
-  integrity sha512-//ZYcqcwQAMoDWQxbw3y3xJ/FzaSTLNFEsb6O8/Vw3BuW0IaY71QgUckoQ9zEXJe1W9y/W77Q5GUvaCpT7wLvQ==
-
 "@xmldom/xmldom@^0.7.5":
   version "0.7.9"
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.9.tgz#7f9278a50e737920e21b297b8a35286e9942c056"
