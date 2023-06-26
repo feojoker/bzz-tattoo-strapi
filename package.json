@@ -1,16 +1,15 @@
 {
   "dependencies": {
     "@strapi/plugin-graphql": "^4.11.2",
-    "@strapi/plugin-i18n": "4.5.3",
-    "@strapi/plugin-users-permissions": "4.5.3",
-    "@strapi/provider-upload-cloudinary": "^4.5.1",
-    "@strapi/strapi": "4.5.3",
+    "@strapi/plugin-i18n": "4.11.2",
+    "@strapi/plugin-users-permissions": "4.11.2",
+    "@strapi/provider-upload-cloudinary": "^4.11.2",
+    "@strapi/strapi": "4.11.2",
     "better-sqlite3": "7.4.6",
     "install": "^0.13.0",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "pg": "^8.8.0",
-    "strapi-plugin-rest-cache": "^4.2.6"
+    "pg": "^8.8.0"
   },
   "name": "backend",
   "private": true,
@@ -25,6 +24,9 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.9"
+  },
+  "resolutions": {
+    "codemirror": "5.65.12"
   },
   "author": {
     "name": "A Strapi developer"
