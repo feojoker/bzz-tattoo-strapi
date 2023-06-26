@@ -1,10 +1,13 @@
 {
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@strapi/plugin-graphql": "^4.11.2",
     "@strapi/plugin-i18n": "4.11.2",
     "@strapi/plugin-users-permissions": "4.11.2",
     "@strapi/provider-upload-cloudinary": "^4.11.2",
     "@strapi/strapi": "4.11.2",
+    "@webvibe-io/strapi-plugin-instagram": "^1.2.5",
     "better-sqlite3": "7.4.6",
     "install": "^0.13.0",
     "lodash.set": "^4.3.2",
